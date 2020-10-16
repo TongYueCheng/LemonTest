@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6F2999CE07A65266BDA5BD58 /* libPods-FirstSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F99DAF6F02571A97143F04A7 /* libPods-FirstSwift.a */; };
+		ED889C2E25382CA500CBE2F5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C2D25382CA500CBE2F5 /* BaseController.swift */; };
+		ED889C3725382DF200CBE2F5 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C3625382DF200CBE2F5 /* Global.swift */; };
+		ED889C432538332F00CBE2F5 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C422538332F00CBE2F5 /* CommunityVC.swift */; };
+		ED889C4B2538334B00CBE2F5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C4A2538334B00CBE2F5 /* HomeVC.swift */; };
+		ED889C502538336900CBE2F5 /* BookRackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C4F2538336900CBE2F5 /* BookRackVC.swift */; };
+		ED889C552538337700CBE2F5 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C542538337700CBE2F5 /* MineVC.swift */; };
+		ED889C9C253842A300CBE2F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C9B253842A300CBE2F5 /* SceneDelegate.swift */; };
 		EDDA8B4A2537F5600027995F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA8B492537F5600027995F /* TabBarController.swift */; };
 		EDDA8B4F2537F6520027995F /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA8B4E2537F6520027995F /* NaviController.swift */; };
 		EDDA8B562537FFB30027995F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA8B552537FFB30027995F /* UIColorExtension.swift */; };
 		EDE57A832504E46900572E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE57A822504E46900572E83 /* AppDelegate.swift */; };
-		EDE57A852504E46900572E83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE57A842504E46900572E83 /* SceneDelegate.swift */; };
 		EDE57A872504E46900572E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE57A862504E46900572E83 /* ViewController.swift */; };
 		EDE57A8A2504E46900572E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE57A882504E46900572E83 /* Main.storyboard */; };
 		EDE57A8C2504E47000572E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE57A8B2504E47000572E83 /* Assets.xcassets */; };
@@ -41,12 +47,18 @@
 /* Begin PBXFileReference section */
 		69B6CD554E2B82699547D672 /* Pods-FirstSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwift.release.xcconfig"; path = "Target Support Files/Pods-FirstSwift/Pods-FirstSwift.release.xcconfig"; sourceTree = "<group>"; };
 		A0D8BD94B941BA94EAA9A2CB /* Pods-FirstSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwift.debug.xcconfig"; path = "Target Support Files/Pods-FirstSwift/Pods-FirstSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		ED889C2D25382CA500CBE2F5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		ED889C3625382DF200CBE2F5 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		ED889C422538332F00CBE2F5 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
+		ED889C4A2538334B00CBE2F5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		ED889C4F2538336900CBE2F5 /* BookRackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRackVC.swift; sourceTree = "<group>"; };
+		ED889C542538337700CBE2F5 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
+		ED889C9B253842A300CBE2F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EDDA8B492537F5600027995F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EDDA8B4E2537F6520027995F /* NaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
 		EDDA8B552537FFB30027995F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		EDE57A7F2504E46900572E83 /* FirstSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE57A822504E46900572E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDE57A842504E46900572E83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EDE57A862504E46900572E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDE57A892504E46900572E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDE57A8B2504E47000572E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,9 +108,53 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		ED889C3325382D5C00CBE2F5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ED889C3625382DF200CBE2F5 /* Global.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ED889C3E2538327600CBE2F5 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				ED889C542538337700CBE2F5 /* MineVC.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		ED889C3F2538328200CBE2F5 /* BookRack */ = {
+			isa = PBXGroup;
+			children = (
+				ED889C4F2538336900CBE2F5 /* BookRackVC.swift */,
+			);
+			path = BookRack;
+			sourceTree = "<group>";
+		};
+		ED889C402538328700CBE2F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED889C4A2538334B00CBE2F5 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ED889C412538328C00CBE2F5 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				ED889C422538332F00CBE2F5 /* CommunityVC.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
 		EDDA8B422537F4D70027995F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				ED889C412538328C00CBE2F5 /* Community */,
+				ED889C402538328700CBE2F5 /* Home */,
+				ED889C3F2538328200CBE2F5 /* BookRack */,
+				ED889C3E2538327600CBE2F5 /* Mine */,
 				EDDA8B432537F4E80027995F /* Main */,
 			);
 			path = Controller;
@@ -109,6 +165,7 @@
 			children = (
 				EDDA8B492537F5600027995F /* TabBarController.swift */,
 				EDDA8B4E2537F6520027995F /* NaviController.swift */,
+				ED889C2D25382CA500CBE2F5 /* BaseController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -154,10 +211,11 @@
 		EDE57A812504E46900572E83 /* FirstSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ED889C3325382D5C00CBE2F5 /* Other */,
 				EDDA8B532537FF810027995F /* Common */,
 				EDDA8B422537F4D70027995F /* Controller */,
 				EDE57A822504E46900572E83 /* AppDelegate.swift */,
-				EDE57A842504E46900572E83 /* SceneDelegate.swift */,
+				ED889C9B253842A300CBE2F5 /* SceneDelegate.swift */,
 				EDE57A862504E46900572E83 /* ViewController.swift */,
 				EDE57A882504E46900572E83 /* Main.storyboard */,
 				EDE57A8B2504E47000572E83 /* Assets.xcassets */,
@@ -368,12 +426,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED889C432538332F00CBE2F5 /* CommunityVC.swift in Sources */,
+				ED889C552538337700CBE2F5 /* MineVC.swift in Sources */,
+				ED889C4B2538334B00CBE2F5 /* HomeVC.swift in Sources */,
+				ED889C3725382DF200CBE2F5 /* Global.swift in Sources */,
 				EDE57A872504E46900572E83 /* ViewController.swift in Sources */,
 				EDDA8B4A2537F5600027995F /* TabBarController.swift in Sources */,
+				ED889C2E25382CA500CBE2F5 /* BaseController.swift in Sources */,
 				EDE57A832504E46900572E83 /* AppDelegate.swift in Sources */,
-				EDE57A852504E46900572E83 /* SceneDelegate.swift in Sources */,
 				EDDA8B4F2537F6520027995F /* NaviController.swift in Sources */,
+				ED889C502538336900CBE2F5 /* BookRackVC.swift in Sources */,
 				EDDA8B562537FFB30027995F /* UIColorExtension.swift in Sources */,
+				ED889C9C253842A300CBE2F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
