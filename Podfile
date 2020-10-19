@@ -1,7 +1,8 @@
 platform :ios, '9.0'
 
 target 'FirstSwift' do
-
+    use_frameworks!
+      inhibit_all_warnings!
 # 自动布局
 pod 'SnapKitExtend'
 pod 'Then'

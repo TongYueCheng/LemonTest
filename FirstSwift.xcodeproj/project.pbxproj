@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6F2999CE07A65266BDA5BD58 /* libPods-FirstSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F99DAF6F02571A97143F04A7 /* libPods-FirstSwift.a */; };
+		ED044771253928B4005E02E3 /* FindNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED044770253928B4005E02E3 /* FindNavView.swift */; };
+		ED04478225393F62005E02E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ED04477625393F61005E02E3 /* LICENSE */; };
+		ED04478325393F62005E02E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED04477725393F61005E02E3 /* README.md */; };
+		ED04478425393F62005E02E3 /* LLViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477A25393F61005E02E3 /* LLViewExtensions.swift */; };
+		ED04478525393F62005E02E3 /* LLPillPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477B25393F61005E02E3 /* LLPillPageControl.swift */; };
+		ED04478625393F62005E02E3 /* LLCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477C25393F61005E02E3 /* LLCycleScrollView.swift */; };
+		ED04478725393F62005E02E3 /* LLSnakePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477D25393F61005E02E3 /* LLSnakePageControl.swift */; };
+		ED04478825393F62005E02E3 /* LLCycleScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477E25393F61005E02E3 /* LLCycleScrollViewCell.swift */; };
+		ED04478925393F62005E02E3 /* LLFilledPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04477F25393F61005E02E3 /* LLFilledPageControl.swift */; };
+		ED04478A25393F62005E02E3 /* LLImagePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04478025393F61005E02E3 /* LLImagePageControl.swift */; };
+		ED04478B25393F62005E02E3 /* LLCycleScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED04478125393F61005E02E3 /* LLCycleScrollView.bundle */; };
+		ED0447BB25394F05005E02E3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0447BA25394F05005E02E3 /* Model.swift */; };
+		ED0447C0253950B4005E02E3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0447BF253950B4005E02E3 /* API.swift */; };
 		ED889C2E25382CA500CBE2F5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C2D25382CA500CBE2F5 /* BaseController.swift */; };
 		ED889C3725382DF200CBE2F5 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C3625382DF200CBE2F5 /* Global.swift */; };
 		ED889C432538332F00CBE2F5 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED889C422538332F00CBE2F5 /* CommunityVC.swift */; };
@@ -47,6 +60,20 @@
 /* Begin PBXFileReference section */
 		69B6CD554E2B82699547D672 /* Pods-FirstSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwift.release.xcconfig"; path = "Target Support Files/Pods-FirstSwift/Pods-FirstSwift.release.xcconfig"; sourceTree = "<group>"; };
 		A0D8BD94B941BA94EAA9A2CB /* Pods-FirstSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwift.debug.xcconfig"; path = "Target Support Files/Pods-FirstSwift/Pods-FirstSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		ED044770253928B4005E02E3 /* FindNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNavView.swift; sourceTree = "<group>"; };
+		ED04477625393F61005E02E3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ED04477725393F61005E02E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED04477A25393F61005E02E3 /* LLViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLViewExtensions.swift; sourceTree = "<group>"; };
+		ED04477B25393F61005E02E3 /* LLPillPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPillPageControl.swift; sourceTree = "<group>"; };
+		ED04477C25393F61005E02E3 /* LLCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCycleScrollView.swift; sourceTree = "<group>"; };
+		ED04477D25393F61005E02E3 /* LLSnakePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSnakePageControl.swift; sourceTree = "<group>"; };
+		ED04477E25393F61005E02E3 /* LLCycleScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCycleScrollViewCell.swift; sourceTree = "<group>"; };
+		ED04477F25393F61005E02E3 /* LLFilledPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLFilledPageControl.swift; sourceTree = "<group>"; };
+		ED04478025393F61005E02E3 /* LLImagePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLImagePageControl.swift; sourceTree = "<group>"; };
+		ED04478125393F61005E02E3 /* LLCycleScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLCycleScrollView.bundle; sourceTree = "<group>"; };
+		ED0447BA25394F05005E02E3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ED0447BF253950B4005E02E3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		ED04483D25397C12005E02E3 /* FirstSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		ED889C2D25382CA500CBE2F5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		ED889C3625382DF200CBE2F5 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		ED889C422538332F00CBE2F5 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
@@ -108,6 +135,63 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		ED04476C2539287E005E02E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED044770253928B4005E02E3 /* FindNavView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED04477525393F61005E02E3 /* LLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ED04477625393F61005E02E3 /* LICENSE */,
+				ED04477725393F61005E02E3 /* README.md */,
+				ED04477825393F61005E02E3 /* Lib */,
+			);
+			path = LLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		ED04477825393F61005E02E3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				ED04477925393F61005E02E3 /* LLCycleScrollView */,
+				ED04478125393F61005E02E3 /* LLCycleScrollView.bundle */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		ED04477925393F61005E02E3 /* LLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ED04477A25393F61005E02E3 /* LLViewExtensions.swift */,
+				ED04477B25393F61005E02E3 /* LLPillPageControl.swift */,
+				ED04477C25393F61005E02E3 /* LLCycleScrollView.swift */,
+				ED04477D25393F61005E02E3 /* LLSnakePageControl.swift */,
+				ED04477E25393F61005E02E3 /* LLCycleScrollViewCell.swift */,
+				ED04477F25393F61005E02E3 /* LLFilledPageControl.swift */,
+				ED04478025393F61005E02E3 /* LLImagePageControl.swift */,
+			);
+			path = LLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		ED04478F253944C0005E02E3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ED0447BF253950B4005E02E3 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		ED0447A025394D14005E02E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED0447BA25394F05005E02E3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ED889C3325382D5C00CBE2F5 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +219,7 @@
 		ED889C402538328700CBE2F5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				ED04476C2539287E005E02E3 /* View */,
 				ED889C4A2538334B00CBE2F5 /* HomeVC.swift */,
 			);
 			path = Home;
@@ -173,6 +258,7 @@
 		EDDA8B532537FF810027995F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				ED04477525393F61005E02E3 /* LLCycleScrollView */,
 				EDDA8B542537FF8F0027995F /* Extension */,
 			);
 			path = Common;
@@ -195,6 +281,7 @@
 				EDE57A802504E46900572E83 /* Products */,
 				54661336C47755C3A9E11867 /* Pods */,
 				FB5D28DC8C4F0D39E1966C1B /* Frameworks */,
+				ED04483D25397C12005E02E3 /* FirstSwift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +298,8 @@
 		EDE57A812504E46900572E83 /* FirstSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ED0447A025394D14005E02E3 /* Model */,
+				ED04478F253944C0005E02E3 /* API */,
 				ED889C3325382D5C00CBE2F5 /* Other */,
 				EDDA8B532537FF810027995F /* Common */,
 				EDDA8B422537F4D70027995F /* Controller */,
@@ -321,6 +410,7 @@
 				TargetAttributes = {
 					EDE57A7E2504E46900572E83 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1200;
 					};
 					EDE57A942504E47000572E83 = {
 						CreatedOnToolsVersion = 11.7;
@@ -357,8 +447,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED04478B25393F62005E02E3 /* LLCycleScrollView.bundle in Resources */,
 				EDE57A8F2504E47000572E83 /* LaunchScreen.storyboard in Resources */,
 				EDE57A8C2504E47000572E83 /* Assets.xcassets in Resources */,
+				ED04478325393F62005E02E3 /* README.md in Resources */,
+				ED04478225393F62005E02E3 /* LICENSE in Resources */,
 				EDE57A8A2504E46900572E83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,9 +519,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0447C0253950B4005E02E3 /* API.swift in Sources */,
+				ED0447BB25394F05005E02E3 /* Model.swift in Sources */,
 				ED889C432538332F00CBE2F5 /* CommunityVC.swift in Sources */,
+				ED04478525393F62005E02E3 /* LLPillPageControl.swift in Sources */,
+				ED04478725393F62005E02E3 /* LLSnakePageControl.swift in Sources */,
 				ED889C552538337700CBE2F5 /* MineVC.swift in Sources */,
+				ED04478A25393F62005E02E3 /* LLImagePageControl.swift in Sources */,
 				ED889C4B2538334B00CBE2F5 /* HomeVC.swift in Sources */,
+				ED04478625393F62005E02E3 /* LLCycleScrollView.swift in Sources */,
+				ED04478825393F62005E02E3 /* LLCycleScrollViewCell.swift in Sources */,
 				ED889C3725382DF200CBE2F5 /* Global.swift in Sources */,
 				EDE57A872504E46900572E83 /* ViewController.swift in Sources */,
 				EDDA8B4A2537F5600027995F /* TabBarController.swift in Sources */,
@@ -437,6 +537,9 @@
 				EDDA8B4F2537F6520027995F /* NaviController.swift in Sources */,
 				ED889C502538336900CBE2F5 /* BookRackVC.swift in Sources */,
 				EDDA8B562537FFB30027995F /* UIColorExtension.swift in Sources */,
+				ED044771253928B4005E02E3 /* FindNavView.swift in Sources */,
+				ED04478425393F62005E02E3 /* LLViewExtensions.swift in Sources */,
+				ED04478925393F62005E02E3 /* LLFilledPageControl.swift in Sources */,
 				ED889C9C253842A300CBE2F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,7 +714,9 @@
 			baseConfigurationReference = A0D8BD94B941BA94EAA9A2CB /* Pods-FirstSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = JFJ4NV9CLE;
 				INFOPLIST_FILE = FirstSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -620,6 +725,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..FirstSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirstSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -630,7 +737,9 @@
 			baseConfigurationReference = 69B6CD554E2B82699547D672 /* Pods-FirstSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = JFJ4NV9CLE;
 				INFOPLIST_FILE = FirstSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -639,6 +748,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..FirstSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FirstSwift-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
