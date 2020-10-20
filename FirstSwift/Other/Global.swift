@@ -47,4 +47,25 @@ var topVC: UIViewController? {
 }
 
 
+//MARK: print
+func uLog<T>(_ message: T, file: String = #file, function: String = #function, lineNumber: Int = #line) {
+    #if DEBUG
+    let fileName = (file as NSString).lastPathComponent
+    print("[\(fileName):funciton:\(function):line:\(lineNumber)]- \(message)")
+    #endif
+}
+
+
+//MARK: Kingfisher
+extension Kingfisher where Base: ImageView {
+    @discardableResult
+    public func setImage(urlString: String?, placeholder:Placeholder? = UIImage(named: "normal_placeholder_h")) -> RetrieveImageTask {
+        return setImage(with: URL(string: urlString ?? ""), placeholder: placeholder, options: [.transition(.fade(0.5))])
+    }
+}
+
+
+
+
+
 

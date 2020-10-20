@@ -24,20 +24,34 @@ let LoadingPlugin = NetworkActivityPlugin { (type, target) in
     }
 }
 
+let timeoutClosure = {(endpoint:Endpoint, closure:MoyaProvider<Api>.RequestResultClosure) -> Void in
+    
+    if var urlRequest = try? endpoint.urlRequest() {
+        urlRequest.timeoutInterval = 20
+        closure(.success(urlRequest))
+    } else {
+        closure(.failure(MoyaError.requestMapping(endpoint.url)))
+    }
+}
+
+let ApiProvider = MoyaProvider<Api>(requestClosure:timeoutClosure)
+let ApiLoadingProvider = MoyaProvider<Api>(requestClosure: timeoutClosure, plugins:[LoadingPlugin])
+
+
 enum Api {
-    // 发现首页
+    /// 发现首页
     case findHome
-    // 漫画介绍
+    /// 漫画介绍
     case comicIntro(comicid: Int)
-    // 漫画所有章节
+    /// 漫画所有章节
     case comicChapterList(comicid: Int)
-    // 章节内容
+    /// 章节内容
     case chapter(chapter_id: String?)
-    // 我的收藏
+    /// 我的收藏
     case myFav
-    // 我的书单
+    /// 我的书单
     case myBookList
-    // 阅读历史
+    /// 阅读历史
     case readHistory
     
 }
@@ -115,15 +129,20 @@ extension Response {
 
 extension MoyaProvider {
     @discardableResult
-    open func request<T: HandyJSON>(_ target: Target,model: T.Type, completion: ((_ returnData: T?) -> Void)?) -> Cancellable? {
+    
+    open func request<T:HandyJSON>(_ target: Target,
+                                   model: T.Type,
+                                   completion: ((_ returnData: T?) -> Void )?) -> Cancellable? {
         return request(target, completion: {(result) in
             guard let completion = completion else {return}
-            guard let returnData = try? result.value?.mapModel(Response<T>.self) else {
+            guard let returnData = try? result.value?.mapModel(ResponseData<T>.self) else {
                 completion(nil)
                 return
             }
-                            })
+            completion(returnData.data?.returnData)
+        })
     }
+    
 }
 
 

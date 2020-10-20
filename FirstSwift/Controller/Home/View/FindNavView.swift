@@ -43,7 +43,7 @@ class FindNavView: UIView {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_1_default"), for: .normal)
         btn.setTitle("排行", for: .normal)
-        btn.setTitleColor(.black, for: .normal)
+        btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
@@ -52,7 +52,7 @@ class FindNavView: UIView {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_2_default"), for: .normal)
         btn.setTitle("VIP", for: .normal)
-        btn.setTitleColor(.black, for: .normal)
+        btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
@@ -61,7 +61,7 @@ class FindNavView: UIView {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_3_default"), for: .normal)
         btn.setTitle("订阅", for: .normal)
-        btn.setTitleColor(.black, for: .normal)
+        btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
@@ -70,7 +70,7 @@ class FindNavView: UIView {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_4_default"), for: .normal)
         btn.setTitle("分类", for: .normal)
-        btn.setTitleColor(.black, for: .normal)
+        btn.setTitleColor(.white, for: .normal)
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
